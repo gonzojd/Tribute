@@ -1,0 +1,153 @@
+<html>
+<head>
+    <style>
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    }
+
+    .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    }
+    #img-div{
+        justify-content: center;
+        max-width: none;
+        
+
+    }
+
+    .black-background{
+        background-color:blanchedalmond;
+
+    }
+
+    .thin-black-border{
+
+        border-color:chocolate;
+        border-width: 8px;
+        border-style:double;
+        border-radius: 10px;
+    }
+
+    #tribute-info{
+        justify-content: center;
+    }
+
+
+     #img-caption{
+         font-size: 35px;
+         font: bold;
+         color:black;
+     }
+
+    
+
+#title{
+    font-size: 55px;
+    color: firebrick;
+    font-weight: bold;
+}
+
+#context{
+    color:firebrick;
+    font-size: 20px;
+}
+
+    .center{
+        margin: auto;
+        width: 38%;
+        border: 3px firebrick;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+    #image {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+    </style>
+
+
+</head>
+<body>
+    <div id="main" class="black-background">
+
+<h1 id="title" class="center">Uncle Iroh</h1>
+
+<div id="img-div">    
+    <div class="row">
+    <div class="column"></div>
+     <div class="column">
+        <img src="images/uncle iroh portrait.jpeg" alt="Uncle Iroh Portrait" id="image">
+        <img src="images/visiting_uncle_iroh__by_freestarisis_d7n59p5-fullview.png" alt="Uncle Iroh Portrait id="image">
+        <img src="images/iroh pi.jpg" alt="Uncle Iroh Portrait"id="image">
+        <img src="images/iroh-character-web-desktop.png" alt="Uncle Iroh Portrait" id="image">
+        <img src="images/hat iroh.jpg" alt="Uncle Iroh Portrait" id="image">
+    </div>
+
+     <div class="column">
+        <img src="images/lofi iroh.jpg" alt="Uncle Iroh Portrait" id="image">
+        <img src="images/fuego.webp" alt="Uncle Iroh Portrait" id="image">
+        <img src="images/spirit world.png" alt="Uncle Iroh Portrait" id="image">
+        <img src="images/pi sho.png" alt="Uncle Iroh Portrait" id="image">
+        <img src="images/bao.jpg" alt="Uncle Iroh Portrait" id="image">
+        </div>
+        <div class="column"></div>
+    </div>
+        <p id="img-caption" class="center"><em>One Of The Most Influential Philosophers</em></p>
+    </div>
+
+<div id="tribute-info" class="center">
+  
+   <p id="context" class="thin-black-border">Uncles Irohs words of wisdom helps guide you through challenging times in life to perserve and to stay with a positive attitude. </p>
+    <p id="context" class="thin-black-border">
+    “While it’s always best to believe in oneself, a little help from others can be a great blessing.”
+   </p> 
+   <p id="context" class="thin-black-border">"It is important to draw wisdom from many different places."</p>
+   <p id="context" class="thin-black-border">"Hope is something you give yourself. That is the meaning of inner strength."</p>
+   <p id="context" class="thin-black-border">"Pride is not the opposite of shame, but its source. True humilty is the only antidote to shame."</p>
+
+
+</div>
+
+<div class="center">
+<a href="https://avatar.fandom.com/wiki/Iroh" target="_blank" id="tribute-link" class="center"> Learn more about Uncle Iroh.</a>
+</div>
+</div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
+
+
